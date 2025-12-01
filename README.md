@@ -2,6 +2,8 @@
 
 A modular, event-driven equipment system for Unity that handles equipping, unequipping, and dropping items with visual socket-based attachment.
 
+![Equipment System Demo](Media/GIF.gif)
+
 ## Features
 
 - **Socket-based attachment** — Define attachment points on your character (hands, back, head, etc.) and items automatically parent to the correct socket
