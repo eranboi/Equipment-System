@@ -781,7 +781,7 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
     rotationOffset: {x: 0, y: 0, z: 0}
   addRigidbodyOnDrop: 1
-  dropForce: 2
+  dropForce: 5
 --- !u!114 &706517275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1306,6 +1306,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.188
       objectReference: {fileID: 0}
+    - target: {fileID: 7809506248468831748, guid: 2be99a02cdef6f9489676507d505873c, type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8352944003596650807, guid: 2be99a02cdef6f9489676507d505873c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.27
@@ -1365,6 +1369,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3931168289544956745, guid: 4c6152ebbf5b2a64099d5d7023e15fa7, type: 3}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3931168289544956745, guid: 4c6152ebbf5b2a64099d5d7023e15fa7, type: 3}
+      propertyPath: m_Size.z
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4708961079559179681, guid: 4c6152ebbf5b2a64099d5d7023e15fa7, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1379,7 +1391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6890959388448381389, guid: 4c6152ebbf5b2a64099d5d7023e15fa7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.125
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6890959388448381389, guid: 4c6152ebbf5b2a64099d5d7023e15fa7, type: 3}
       propertyPath: m_LocalPosition.z
