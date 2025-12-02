@@ -23,14 +23,6 @@ namespace eranboi.EquipmentSystem
             InitializeSlots();
         }
 
-        private void Update()
-        {
-            if (Keyboard.current.gKey.wasPressedThisFrame)
-            {
-                Drop(EquipmentSlotType.PrimaryWeapon, gameObject);
-            }
-        }
-
         private void InitializeSlots()
         {
             foreach (EquipmentSlotType _slotType in Enum.GetValues(typeof(EquipmentSlotType)))
